@@ -15,6 +15,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import  {Drop1Component} from './drop1/drop1.component';
 import { RamasComponent } from './ramas/ramas.component';
 import { from } from 'rxjs';
+import { Drop2Component } from './drop2/drop2.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'nosotros', component:NosotrosComponent},
   { path: 'contacto', component:ContactoComponent},
   { path: 'drop1', component:Drop1Component},
+  { path: 'drop2', component:Drop2Component},
   { path: 'ramas', component:RamasComponent},  
   { path: '', component:InicioComponent, pathMatch: 'full' },
   { path: '**', redirectTo: '/', pathMatch: 'full' },
@@ -39,6 +41,7 @@ const routes: Routes = [
     ContactoComponent,
     Drop1Component,
     RamasComponent,
+    Drop2Component,
     
   ],
   imports: [
