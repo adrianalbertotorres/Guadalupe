@@ -10,10 +10,17 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 const routes: Routes = [
-  { path: 'inicio', component:InicioComponent }
+  { path: 'inicio', component:InicioComponent },
+  { path: 'nosotros', component:NosotrosComponent},
+  { path: 'contacto', component:ContactoComponent},
+  { path: '', component:InicioComponent, pathMatch: 'full' },
+  { path: '**', redirectTo: '/', pathMatch: 'full' },
 ];
+
 
 @NgModule({
   declarations: [
@@ -21,7 +28,9 @@ const routes: Routes = [
     HeaderComponent,
     FooterComponent,
     BodyComponent,
-    InicioComponent
+    InicioComponent,
+    NosotrosComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
