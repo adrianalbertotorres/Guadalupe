@@ -17,6 +17,12 @@ import  {Drop1Component} from './drop1/drop1.component';
 import { from } from 'rxjs';
 import { ramasComponent } from './ramas/ramas.component';
 
+import { ManadaComponent } from './manada/manada.component';
+import { UnidadComponent } from './unidad/unidad.component';
+import { CaminantesComponent } from './caminantes/caminantes.component';
+import { RobertComponent } from './robert/robert.component';
+import { DocumentacionComponent } from './documentacion/documentacion.component';
+
 
 const routes: Routes = [
   { path: 'inicio', component:InicioComponent },
@@ -24,6 +30,11 @@ const routes: Routes = [
   { path: 'contacto', component:ContactoComponent},
   { path: 'drop1', component:Drop1Component},
   { path: 'ramas', component:ramasComponent},
+  { path:'manada',component:ManadaComponent},
+  { path:'unidad',component:UnidadComponent},
+  { path:'caminantes',component:CaminantesComponent},
+  { path:'robert',component:RobertComponent},
+  { path:'documentacion',component:DocumentacionComponent}
   
   { path: '', component:InicioComponent, pathMatch: 'full' },
   { path: '**', redirectTo: '/', pathMatch: 'full' },
@@ -42,6 +53,11 @@ const routes: Routes = [
     Drop1Component,
     
     ramasComponent,
+    ManadaComponent,
+    UnidadComponent,
+    CaminantesComponent,
+    RobertComponent,
+    DocumentacionComponent,
     
   ],
   imports: [
