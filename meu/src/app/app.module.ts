@@ -22,6 +22,7 @@ import { UnidadComponent } from './unidad/unidad.component';
 import { CaminantesComponent } from './caminantes/caminantes.component';
 import { RobertComponent } from './robert/robert.component';
 import { DocumentacionComponent } from './documentacion/documentacion.component';
+import { DocRobertComponent } from './doc-robert/doc-robert.component';
 
 
 const routes: Routes = [
@@ -34,7 +35,7 @@ const routes: Routes = [
   { path:'unidad',component:UnidadComponent},
   { path:'caminantes',component:CaminantesComponent},
   { path:'robert',component:RobertComponent},
-  { path:'documentacion',component:DocumentacionComponent}
+  { path:'documentacion',component:DocumentacionComponent},
   
   { path: '', component:InicioComponent, pathMatch: 'full' },
   { path: '**', redirectTo: '/', pathMatch: 'full' },
@@ -58,6 +59,7 @@ const routes: Routes = [
     CaminantesComponent,
     RobertComponent,
     DocumentacionComponent,
+    DocRobertComponent,
     
   ],
   imports: [
@@ -66,6 +68,6 @@ const routes: Routes = [
     RouterModule.forRoot(routes)
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
