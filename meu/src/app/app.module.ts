@@ -21,7 +21,6 @@ import { ManadaComponent } from './manada/manada.component';
 import { UnidadComponent } from './unidad/unidad.component';
 import { CaminantesComponent } from './caminantes/caminantes.component';
 import { RobertComponent } from './robert/robert.component';
-import { DocumentacionComponent } from './documentacion/documentacion.component';
 import { DocRobertComponent } from './doc-robert/doc-robert.component';
 
 
@@ -29,13 +28,14 @@ const routes: Routes = [
   { path: 'inicio', component:InicioComponent },
   { path: 'nosotros', component:NosotrosComponent},
   { path: 'contacto', component:ContactoComponent},
-  { path: 'drop1', component:Drop1Component},
+  
   { path: 'ramas', component:ramasComponent},
   { path:'manada',component:ManadaComponent},
   { path:'unidad',component:UnidadComponent},
   { path:'caminantes',component:CaminantesComponent},
   { path:'robert',component:RobertComponent},
-  { path:'documentacion',component:DocumentacionComponent},
+  { path:'Rovers',component:DocRobertComponent},
+  
   
   { path: '', component:InicioComponent, pathMatch: 'full' },
   { path: '**', redirectTo: '/', pathMatch: 'full' },
@@ -58,7 +58,6 @@ const routes: Routes = [
     UnidadComponent,
     CaminantesComponent,
     RobertComponent,
-    DocumentacionComponent,
     DocRobertComponent,
     
   ],
