@@ -9,3 +9,14 @@ li{
 ul{
     list-style-type:none;
 }
+#letra{
+    font-family:'miletra';
+    
+    padding-top: 5px;
+    text-align: center;
+}
+
+@font-face{
+    font-family: 'miletra';
+    src: url('./../../MTCORSVA.TTF');
+    }

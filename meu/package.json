@@ -45,5 +45,20 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.1.6"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianalbertotorres/Guadalupe.git"
+  },
+  "keywords": [
+    "adrian22"
+  ],
+  "author": "Adrian Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianalbertotorres/Guadalupe/issues"
+  },
+  "homepage": "https://github.com/adrianalbertotorres/Guadalupe#readme"
 }
