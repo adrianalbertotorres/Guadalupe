@@ -26,6 +26,9 @@ import { MurcieladoComponent } from './impresion/murcielado/murcielado.component
 import { HipotenusaComponent } from './clave/hipotenusa/hipotenusa.component';
 import { ParelinofuComponent } from './clave/parelinofu/parelinofu.component';
 import { MorseComponent } from './clave/morse/morse.component';
+import { DocCaminantesComponent } from './doc-caminantes/doc-caminantes.component';
+import { DocManadaComponent } from './doc-manada/doc-manada.component';
+import { DocUnidadComponent } from './doc-unidad/doc-unidad.component';
 
 
 
@@ -38,6 +41,10 @@ const routes: Routes = [
   { path:'unidad',component:UnidadComponent},
   { path:'caminantes',component:CaminantesComponent},
   { path:'robert',component:RobertComponent},
+
+  { path:'Manada',component:DocManadaComponent},
+  { path:'Unidad',component:DocUnidadComponent},
+  { path:'Caminantes',component:DocCaminantesComponent},
   { path:'Rovers',component:DocRobertComponent},
 
   { path:'murcielago',component:MurcielagoComponent},
@@ -72,6 +79,9 @@ const routes: Routes = [
     HipotenusaComponent,
     ParelinofuComponent,
     MorseComponent,
+    DocCaminantesComponent,
+    DocManadaComponent,
+    DocUnidadComponent,
     
     
   ],
