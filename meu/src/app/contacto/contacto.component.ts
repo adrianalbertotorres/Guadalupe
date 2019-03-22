@@ -9,7 +9,12 @@ import * as swal from 'sweetalert'; // npm install sweetalert
 })
 export class ContactoComponent {
 
-  datos:any={nombre:"",asunto:"",email:"",mensaje:""}
+  datos:any={nombre:"",asunto:"",email:"",mensaje:""};
+
+  title = 'googlemaps';
+  lat: number = -34.589027;
+  lng: number = -58.417643;
+  zoom:number=18;
  
     constructor(public _MessageService: MessageService) {
    }

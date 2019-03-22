@@ -1,0 +1,14 @@
+agm-map {
+    height:183px;
+    width: 100%;
+  }
+
+  #maps{
+    margin-left: 10px;
+    border: 3px solid black;
+    width: 91%;
+ }
+
+ #contacto{
+   padding-left: 15px;
+ }

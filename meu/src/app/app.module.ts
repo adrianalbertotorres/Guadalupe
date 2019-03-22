@@ -1,4 +1,5 @@
 import { RouterModule, Routes } from '@angular/router';
+import { AgmCoreModule } from '@agm/core';//npm install @agm/core (googleMaps)
 
 
 import { BrowserModule } from '@angular/platform-browser';
@@ -98,6 +99,8 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     HttpClientModule,
     FormsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBeLj5A9vVNB7ru1VFN_mdAIGqMICtzsw0'}), // googleMaps
   ],
   providers: [MessageService],
   bootstrap: [AppComponent],
