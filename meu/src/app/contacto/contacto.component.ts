@@ -14,7 +14,7 @@ export class ContactoComponent {
   title = 'googlemaps';
   lat: number = -34.589027;
   lng: number = -58.417643;
-  zoom:number=18;
+  zoom:number=17;
  
     constructor(public _MessageService: MessageService) {
    }
