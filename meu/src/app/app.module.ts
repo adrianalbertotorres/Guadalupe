@@ -29,12 +29,18 @@ import { MorseComponent } from './clave/morse/morse.component';
 import { DocCaminantesComponent } from './doc-caminantes/doc-caminantes.component';
 import { DocManadaComponent } from './doc-manada/doc-manada.component';
 import { DocUnidadComponent } from './doc-unidad/doc-unidad.component';
+import { ContactoComponent } from './contacto/contacto.component';
+
+import { HttpClientModule } from '@angular/common/http';    // Para servicio de Contacto
+import { FormsModule } from '@angular/forms';               //
+import { MessageService } from './message.service';        //
 
 
 
 const routes: Routes = [
   { path: 'inicio', component:InicioComponent },
   { path: 'nosotros', component:NosotrosComponent},
+  { path: 'contacto', component:ContactoComponent},
  
   { path: 'ramas', component:ramasComponent},
   { path:'manada',component:ManadaComponent},
@@ -82,15 +88,18 @@ const routes: Routes = [
     DocCaminantesComponent,
     DocManadaComponent,
     DocUnidadComponent,
+    ContactoComponent,
     
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    HttpClientModule,
+    FormsModule,
   ],
-  providers: [],
+  providers: [MessageService],
   bootstrap: [AppComponent],
 })
 export class AppModule { }
