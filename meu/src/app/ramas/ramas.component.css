@@ -1,13 +1,4 @@
-.manada{
-    background-color: yellow
-}
-
-.unidad{
-    background-color: green
-}
-.caminantes{
-    background-color: blue
-}
-.robert{
-    background-color: red
+#imagen{
+    margin-left: 50px;
+    border-radius: 100px;
 }
