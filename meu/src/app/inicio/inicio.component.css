@@ -8,3 +8,10 @@ h5,h4,h3,h2,p{
     font-family: 'miletra';
     src: url('./../../MTCORSVA.TTF');
     }
+
+#Im{
+
+    width: 400px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
