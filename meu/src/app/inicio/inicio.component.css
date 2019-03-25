@@ -1,0 +1,10 @@
+h5,h4,h3,h2,p{
+    color:rgb(88, 216, 156);
+    font-style: oblique;
+}
+
+
+@font-face{
+    font-family: 'miletra';
+    src: url('./../../MTCORSVA.TTF');
+    }
