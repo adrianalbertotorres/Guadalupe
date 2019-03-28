@@ -2,7 +2,7 @@
     background-color: rgb(170, 9, 42);
     font-family:  'miletra';
     font-size: 130%;
-
+    color: rgb(168, 141, 141);
 }
 
 a{
@@ -12,3 +12,5 @@ a{
     font-family: 'miletra';
     src: url('./../../MTCORSVA.TTF');
     }
+
+    

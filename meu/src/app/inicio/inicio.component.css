@@ -1,5 +1,5 @@
 h5,h4,h3,h2,p{
-    color:rgb(248, 252, 32);
+    color:grey;
     font-style: oblique;
 }
 
@@ -13,5 +13,13 @@ h5,h4,h3,h2,p{
 
     width: 350px;
     margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+h1{
+    color:grey;
+    background-color:  rgb(128, 3, 13);
+    font-family: 'miletra';
+    text-align: center;
     margin-bottom: 20px;
 }
