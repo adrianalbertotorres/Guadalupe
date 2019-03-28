@@ -12,8 +12,8 @@ export class ContactoComponent {
   datos:any={nombre:"",asunto:"",email:"",mensaje:""};
 
   title = 'googlemaps';
-  lat: number = -34.589027;
-  lng: number = -58.417643;
+  lat: number = -34.589072;
+  lng: number = -58.417489;
   zoom:number=17;
  
     constructor(public _MessageService: MessageService) {

@@ -20,7 +20,7 @@ import { ManadaComponent } from './manada/manada.component';
 import { UnidadComponent } from './unidad/unidad.component';
 import { CaminantesComponent } from './caminantes/caminantes.component';
 import { RobertComponent } from './robert/robert.component';
-import { DocRobertComponent } from './doc-robert/doc-robert.component';
+import { DocRoverComponent } from './DocRover/docRover.component';
 
 import { MurcielagoComponent } from './clave/murcielago/murcielago.component';
 import { MurcieladoComponent } from './impresion/murcielado/murcielado.component';
@@ -52,7 +52,7 @@ const routes: Routes = [
   { path:'Manada',component:DocManadaComponent},
   { path:'Unidad',component:DocUnidadComponent},
   { path:'Caminantes',component:DocCaminantesComponent},
-  { path:'Rovers',component:DocRobertComponent},
+  { path:'Rovers',component:DocRoverComponent},
 
   { path:'murcielago',component:MurcielagoComponent},
   { path:'hipotenusa',component:HipotenusaComponent},
@@ -80,7 +80,7 @@ const routes: Routes = [
     UnidadComponent,
     CaminantesComponent,
     RobertComponent,
-    DocRobertComponent,
+    DocRoverComponent,
    
     MurcielagoComponent,
     HipotenusaComponent,
@@ -90,6 +90,8 @@ const routes: Routes = [
     DocManadaComponent,
     DocUnidadComponent,
     ContactoComponent,
+
+    MurcieladoComponent,
     
     
   ],
