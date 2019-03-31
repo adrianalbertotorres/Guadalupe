@@ -34,7 +34,8 @@ import { ContactoComponent } from './contacto/contacto.component';
 
 import { HttpClientModule } from '@angular/common/http';    // Para servicio de Contacto
 import { FormsModule } from '@angular/forms';               //
-import { MessageService } from './message.service';        //
+import { MessageService } from './message.service';
+import { GatoComponent } from './clave/gato/gato.component';        //
 
 
 
@@ -92,6 +93,8 @@ const routes: Routes = [
     ContactoComponent,
 
     MurcieladoComponent,
+
+    GatoComponent,
     
     
   ],
