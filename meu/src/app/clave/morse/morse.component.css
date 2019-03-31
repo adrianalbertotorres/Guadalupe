@@ -8,5 +8,16 @@ textarea {
 img{
     margin-right: 100px;
     padding-right: 50px;
+    float: right;
     
    }
+  #sos{
+     color:grey;
+     background-color: rgb(128, 3, 13);
+     font-family: 'miletra'; 
+  }
+
+  @font-face{
+    font-family: 'miletra';
+    src: url('./../../../MTCORSVA.TTF');
+    }
