@@ -18,6 +18,7 @@ export class GatoComponent implements OnInit {
    
    this.values=this.values.toLocaleUpperCase( );
    this.codificado='';
+   this.lista=[];
    for (var i = 0; i <= this.values.length-1; i++){
     /* Alt 250 = punto medio */
     this.codificado=this.codificado + this.values.charAt(i)
