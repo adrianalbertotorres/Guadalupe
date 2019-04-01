@@ -11,11 +11,13 @@
         <label for="formGroupExampleInput">Clave Gato</label>
        <textarea name="textarea" maxlength="300" rows="7"(keyup)="onKey($event)" type="text" class="form-control"  placeholder="Ej:  Hola bienvenido"></textarea>
       </div>
-      
-      <input type="button" name="imprimir" value="Imprimir codificacion" onclick="window.print();">
+      <label>Codificación</label> 
+      <br> 
       <section *ngFor="let item of lista">
       <img src="./../../../assets/Imagenes/gato/{{item}}.jpg" alt="" id="gato">
       </section>
-      
+      <div>y</div>
+
+      <input type="button" id="imprimir" value="Imprimir codificacion" onclick="window.print();">
     </form>
 
