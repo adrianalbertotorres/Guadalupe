@@ -1,3 +1,21 @@
-<p>
-  gato works!
-</p>
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-8 "></div>
+    <div class="col-4 ">
+  <img src="./../../../assets/Imagenes/gato.png" alt="" width="200px">
+ </div>
+ </div>
+   <form>
+    <form>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Clave Gato</label>
+       <textarea name="textarea" maxlength="300" rows="7"(keyup)="onKey($event)" type="text" class="form-control"  placeholder="Ej:  Hola bienvenido"></textarea>
+      </div>
+      
+      <input type="button" name="imprimir" value="Imprimir codificacion" onclick="window.print();">
+      <section *ngFor="let item of lista">
+      <img src="./../../../assets/Imagenes/{{item}}.jpg" alt="" id="gato">
+      </section>
+      
+    </form>
+

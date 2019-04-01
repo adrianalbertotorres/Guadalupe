@@ -27,6 +27,9 @@ import { MurcieladoComponent } from './impresion/murcielado/murcielado.component
 import { HipotenusaComponent } from './clave/hipotenusa/hipotenusa.component';
 import { ParelinofuComponent } from './clave/parelinofu/parelinofu.component';
 import { MorseComponent } from './clave/morse/morse.component';
+import { GatoComponent } from './clave/gato/gato.component';     
+
+
 import { DocCaminantesComponent } from './doc-caminantes/doc-caminantes.component';
 import { DocManadaComponent } from './doc-manada/doc-manada.component';
 import { DocUnidadComponent } from './doc-unidad/doc-unidad.component';
@@ -34,8 +37,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 
 import { HttpClientModule } from '@angular/common/http';    // Para servicio de Contacto
 import { FormsModule } from '@angular/forms';               //
-import { MessageService } from './message.service';
-import { GatoComponent } from './clave/gato/gato.component';        //
+import { MessageService } from './message.service';       //
 
 
 
@@ -59,6 +61,7 @@ const routes: Routes = [
   { path:'hipotenusa',component:HipotenusaComponent},
   { path:'parelinofu',component:ParelinofuComponent},
   { path:'morse',component:MorseComponent},
+  { path:'gato',component:GatoComponent},
   
 
   { path: '', component:InicioComponent, pathMatch: 'full' },
@@ -93,7 +96,6 @@ const routes: Routes = [
     ContactoComponent,
 
     MurcieladoComponent,
-
     GatoComponent,
     
     
