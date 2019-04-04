@@ -11,7 +11,7 @@ img{
     float: right;
     
    }
-   #gato{
+ #siete{
     float: left;
     width: 75px;
     height: 50px;
@@ -19,8 +19,10 @@ img{
     padding-right: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    }
-    
-   #division{
-       clear: both;
+   
+
    }
+
+   #division{
+    clear: both;
+}

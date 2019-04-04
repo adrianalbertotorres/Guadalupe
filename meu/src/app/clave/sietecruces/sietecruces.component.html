@@ -1,0 +1,22 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-8 "></div>
+    <div class="col-4 ">
+  <img src="./../../../assets/Imagenes/cruz.png" alt="" width="200px">
+ </div>
+ </div>
+   <form>
+    <form>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Clave Siete Cruces</label>
+       <textarea name="textarea" maxlength="240" rows="7"(keyup)="onKey($event)" type="text" class="form-control"  placeholder="Ej:  Hola bienvenido"></textarea>
+      </div>
+      <label>Codificación</label> 
+      <br> 
+      <section *ngFor="let item of lista">
+      <img src="./../../../assets/Imagenes/gato/{{item}}.jpg" alt="" id="siete">
+      </section>
+      <div id="division"></div>
+
+      <input type="button" id="imprimir" value="Imprimir codificacion" onclick="window.print();">
+    </form>

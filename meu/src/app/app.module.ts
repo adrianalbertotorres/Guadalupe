@@ -37,7 +37,8 @@ import { ContactoComponent } from './contacto/contacto.component';
 
 import { HttpClientModule } from '@angular/common/http';    // Para servicio de Contacto
 import { FormsModule } from '@angular/forms';               //
-import { MessageService } from './message.service';       //
+import { MessageService } from './message.service';
+import { SietecrucesComponent } from './clave/sietecruces/sietecruces.component';       //
 
 
 
@@ -62,6 +63,7 @@ const routes: Routes = [
   { path:'parelinofu',component:ParelinofuComponent},
   { path:'morse',component:MorseComponent},
   { path:'gato',component:GatoComponent},
+  { path:'sietecruces',component:SietecrucesComponent},
   
 
   { path: '', component:InicioComponent, pathMatch: 'full' },
@@ -97,6 +99,7 @@ const routes: Routes = [
 
     MurcieladoComponent,
     GatoComponent,
+    SietecrucesComponent,
     
     
   ],
