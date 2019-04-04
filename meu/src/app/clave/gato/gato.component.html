@@ -8,15 +8,15 @@
    <form>
     <form>
       <div class="form-group">
-        <label for="formGroupExampleInput">Clave Gato</label>
-       <textarea name="textarea" maxlength="300" rows="7"(keyup)="onKey($event)" type="text" class="form-control"  placeholder="Ej:  Hola bienvenido"></textarea>
+        <label for="formGroupExampleInput">Clave Gato o Regilla</label>
+       <textarea name="textarea" maxlength="240" rows="7"(keyup)="onKey($event)" type="text" class="form-control"  placeholder="Ej:  Hola bienvenido"></textarea>
       </div>
       <label>Codificación</label> 
       <br> 
       <section *ngFor="let item of lista">
       <img src="./../../../assets/Imagenes/gato/{{item}}.jpg" alt="" id="gato">
       </section>
-      <div>y</div>
+      <div id="division"></div>
 
       <input type="button" id="imprimir" value="Imprimir codificacion" onclick="window.print();">
     </form>
