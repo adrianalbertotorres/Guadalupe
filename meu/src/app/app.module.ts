@@ -27,7 +27,11 @@ import { MurcieladoComponent } from './impresion/murcielado/murcielado.component
 import { HipotenusaComponent } from './clave/hipotenusa/hipotenusa.component';
 import { ParelinofuComponent } from './clave/parelinofu/parelinofu.component';
 import { MorseComponent } from './clave/morse/morse.component';
-import { GatoComponent } from './clave/gato/gato.component';     
+import { GatoComponent } from './clave/gato/gato.component';
+import { SietecrucesComponent } from './clave/sietecruces/sietecruces.component';
+import { TatetiComponent } from './clave/tateti/tateti.component';       //
+
+
 
 
 import { DocCaminantesComponent } from './doc-caminantes/doc-caminantes.component';
@@ -37,8 +41,8 @@ import { ContactoComponent } from './contacto/contacto.component';
 
 import { HttpClientModule } from '@angular/common/http';    // Para servicio de Contacto
 import { FormsModule } from '@angular/forms';               //
-import { MessageService } from './message.service';
-import { SietecrucesComponent } from './clave/sietecruces/sietecruces.component';       //
+import { MessageService } from './message.service';         //
+
 
 
 
@@ -64,6 +68,7 @@ const routes: Routes = [
   { path:'morse',component:MorseComponent},
   { path:'gato',component:GatoComponent},
   { path:'sietecruces',component:SietecrucesComponent},
+  { path:'tateti',component:TatetiComponent},
   
 
   { path: '', component:InicioComponent, pathMatch: 'full' },
@@ -100,6 +105,7 @@ const routes: Routes = [
     MurcieladoComponent,
     GatoComponent,
     SietecrucesComponent,
+    TatetiComponent,
     
     
   ],
