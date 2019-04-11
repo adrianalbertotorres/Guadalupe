@@ -17,7 +17,7 @@ $message = $formulario->mensaje;
 ini_set( 'display_errors', 1 );
     error_reporting( E_ALL );
   
-    $to = "fronteraswebs@gmail.com";
+    $to = "grupo458@scout.org.ar";
     $headers = "From:" . $from;
     mail($to,$subject,$message, $headers);
   
