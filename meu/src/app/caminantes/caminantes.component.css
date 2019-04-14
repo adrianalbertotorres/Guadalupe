@@ -1,5 +1,24 @@
-img{
-    width: 300px;
-    border-radius: 150px;
+#logo{
+    width: 30px;
+    border-radius: 15px;
     margin: 30px;
+}
+
+img{
+width: 200px;
+height: 300px;
+margin: 10px 10px 10px 10px;
+object-fit: cover;
+
+
+}
+@font-face{
+    font-family: 'miletra';
+    src: url('./../../MTCORSVA.TTF');
+    }
+
+h1{
+    font-family: 'miletra';
+    color: grey;
+    margin-top: 10px;
 }
